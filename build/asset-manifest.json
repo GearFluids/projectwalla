@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.js": "/static/js/main.88d7ab43.chunk.js",
+    "main.js.map": "/static/js/main.88d7ab43.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fca7fc31.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fca7fc31.js.map",
+    "static/js/2.b5c4e9f0.chunk.js": "/static/js/2.b5c4e9f0.chunk.js",
+    "static/js/2.b5c4e9f0.chunk.js.map": "/static/js/2.b5c4e9f0.chunk.js.map",
+    "static/js/3.e95c0df3.chunk.js": "/static/js/3.e95c0df3.chunk.js",
+    "static/js/3.e95c0df3.chunk.js.map": "/static/js/3.e95c0df3.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.b5c4e9f0.chunk.js.LICENSE.txt": "/static/js/2.b5c4e9f0.chunk.js.LICENSE.txt",
+    "static/media/projectwalla-Computational-Fluid-Dynamics-Study-of-S182-Airfoil-for-Various-Angle-of-Attack.c3cf5694.jpeg": "/static/media/projectwalla-Computational-Fluid-Dynamics-Study-of-S182-Airfoil-for-Various-Angle-of-Attack.c3cf5694.jpeg",
+    "static/media/projectwalla-about-us-best-reseach-in-india.4a96165c.png": "/static/media/projectwalla-about-us-best-reseach-in-india.4a96165c.png",
+    "static/media/projectwalla-aboutus-mission-vision.179cc026.png": "/static/media/projectwalla-aboutus-mission-vision.179cc026.png",
+    "static/media/projectwalla-ahmed-body-cfd.f224443b.jpeg": "/static/media/projectwalla-ahmed-body-cfd.f224443b.jpeg",
+    "static/media/projectwalla-boeing-767-ventilation-chamber.ec2e40dc.jpeg": "/static/media/projectwalla-boeing-767-ventilation-chamber.ec2e40dc.jpeg",
+    "static/media/projectwalla-control-box.86565c37.jpeg": "/static/media/projectwalla-control-box.86565c37.jpeg",
+    "static/media/projectwalla-drone-with-loaded-weight-FEA.baf1ac7a.jpeg": "/static/media/projectwalla-drone-with-loaded-weight-FEA.baf1ac7a.jpeg",
+    "static/media/projectwalla-logo.ef088f3a.png": "/static/media/projectwalla-logo.ef088f3a.png",
+    "static/media/projectwalla-mountain-lee-waves-on-UAV.4a024127.jpeg": "/static/media/projectwalla-mountain-lee-waves-on-UAV.4a024127.jpeg",
+    "static/media/projectwalla-thermal-behaviour-and-gluid-flow-characteristics.3daa37d3.jpeg": "/static/media/projectwalla-thermal-behaviour-and-gluid-flow-characteristics.3daa37d3.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fca7fc31.js",
+    "static/js/2.b5c4e9f0.chunk.js",
+    "static/js/main.88d7ab43.chunk.js"
+  ]
+}
