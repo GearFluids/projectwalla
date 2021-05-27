@@ -9,12 +9,8 @@ const NavBar = ({ phoneNumber }) => {
     <Fragment>
       <div className="container-fluid">
         <div className="marquee_status">
-          <marquee
-            behavior="scroll"
-            direction="left"
-            onmouseover="this.stop();"
-            onmouseout="this.start();"
-          >
+          <p>ProjectWalla</p>
+          {/* <marquee behavior="scroll" direction="left">
             Hi there, welcome to our site, we are your complete phd guidance
             spot, where you can expect a high quality work. Your work will be
             secured since we neither have tie-up with any university nor
@@ -22,7 +18,7 @@ const NavBar = ({ phoneNumber }) => {
             The person next to you might also be our client, but you may not
             know… we are that confidential. And our employees are full-time
             workers.
-          </marquee>
+          </marquee> */}
         </div>
         <div className="left-content common-content">
           <span>
