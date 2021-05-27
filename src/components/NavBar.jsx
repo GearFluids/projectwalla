@@ -1,10 +1,43 @@
 import React, { Fragment } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { projectwallaLogo } from "../services/ImgUrlService";
+import Stars from "./Common/Stars";
 
-const NavBar = () => {
+const NavBar = ({ phoneNumber }) => {
+  const url = `tel:{phoneNumber}`;
   return (
     <Fragment>
+      <div className="container-fluid">
+        <div className="marquee_status">
+          <marquee
+            behavior="scroll"
+            direction="left"
+            onmouseover="this.stop();"
+            onmouseout="this.start();"
+          >
+            Hi there, welcome to our site, we are your complete phd guidance
+            spot, where you can expect a high quality work. Your work will be
+            secured since we neither have tie-up with any university nor
+            outsource your work. We don’t share your details with other clients.
+            The person next to you might also be our client, but you may not
+            know… we are that confidential. And our employees are full-time
+            workers.
+          </marquee>
+        </div>
+        <div className="left-content common-content">
+          <span>
+            <Stars />
+            &nbsp;<span className="badge rating-success">4.7/5</span>
+          </span>
+        </div>
+        <div className="right-content common-content">
+          <span>
+            <a href={url} rel="noreferrer">
+              <i className="fa fa-whatsapp" /> 9972461001
+            </a>
+          </span>
+        </div>
+      </div>
       <div className="navbar-common">
         <div className="wthree-different-dot">
           <div className="head">
@@ -86,7 +119,7 @@ const NavBar = () => {
                           <Link to="/research" className="scroll">
                             {" "}
                             <i className="fa fa-angle-right" />
-                            &nbsp;Research & Development
+                            &nbsp;Research &amp; Development
                           </Link>
                         </li>
                         <li>

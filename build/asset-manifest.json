@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.88d7ab43.chunk.js",
-    "main.js.map": "/static/js/main.88d7ab43.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.fca7fc31.js",
-    "runtime-main.js.map": "/static/js/runtime-main.fca7fc31.js.map",
-    "static/js/2.b5c4e9f0.chunk.js": "/static/js/2.b5c4e9f0.chunk.js",
-    "static/js/2.b5c4e9f0.chunk.js.map": "/static/js/2.b5c4e9f0.chunk.js.map",
-    "static/js/3.e95c0df3.chunk.js": "/static/js/3.e95c0df3.chunk.js",
-    "static/js/3.e95c0df3.chunk.js.map": "/static/js/3.e95c0df3.chunk.js.map",
+    "main.js": "/static/js/main.76edf876.chunk.js",
+    "main.js.map": "/static/js/main.76edf876.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a03e59ba.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a03e59ba.js.map",
+    "static/js/2.1d1d7f5b.chunk.js": "/static/js/2.1d1d7f5b.chunk.js",
+    "static/js/2.1d1d7f5b.chunk.js.map": "/static/js/2.1d1d7f5b.chunk.js.map",
+    "static/js/3.44155eff.chunk.js": "/static/js/3.44155eff.chunk.js",
+    "static/js/3.44155eff.chunk.js.map": "/static/js/3.44155eff.chunk.js.map",
     "index.html": "/index.html",
-    "static/js/2.b5c4e9f0.chunk.js.LICENSE.txt": "/static/js/2.b5c4e9f0.chunk.js.LICENSE.txt",
+    "static/js/2.1d1d7f5b.chunk.js.LICENSE.txt": "/static/js/2.1d1d7f5b.chunk.js.LICENSE.txt",
+    "static/media/ProjectWalla_Paper_Publication_Stats.833cf295.jpeg": "/static/media/ProjectWalla_Paper_Publication_Stats.833cf295.jpeg",
+    "static/media/ProjectWalla_happy_customers_all_over_india.a4eeaa42.jpeg": "/static/media/ProjectWalla_happy_customers_all_over_india.a4eeaa42.jpeg",
     "static/media/projectwalla-Computational-Fluid-Dynamics-Study-of-S182-Airfoil-for-Various-Angle-of-Attack.c3cf5694.jpeg": "/static/media/projectwalla-Computational-Fluid-Dynamics-Study-of-S182-Airfoil-for-Various-Angle-of-Attack.c3cf5694.jpeg",
     "static/media/projectwalla-about-us-best-reseach-in-india.4a96165c.png": "/static/media/projectwalla-about-us-best-reseach-in-india.4a96165c.png",
     "static/media/projectwalla-aboutus-mission-vision.179cc026.png": "/static/media/projectwalla-aboutus-mission-vision.179cc026.png",
@@ -22,8 +24,8 @@
     "static/media/projectwalla-thermal-behaviour-and-gluid-flow-characteristics.3daa37d3.jpeg": "/static/media/projectwalla-thermal-behaviour-and-gluid-flow-characteristics.3daa37d3.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fca7fc31.js",
-    "static/js/2.b5c4e9f0.chunk.js",
-    "static/js/main.88d7ab43.chunk.js"
+    "static/js/runtime-main.a03e59ba.js",
+    "static/js/2.1d1d7f5b.chunk.js",
+    "static/js/main.76edf876.chunk.js"
   ]
 }

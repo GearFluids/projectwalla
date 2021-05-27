@@ -7,23 +7,32 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="ProjectWalla is an organization for researchers and professionals around the world, promoting interdisciplinary researchProposal that leverages communication and publishing facilities for engineering affluence and technological advances." />
+      content="ProjectWalla is an organization for researchers and professionals around the world, promoting interdisciplinary researchProposal that leverages communication and publishing facilities for engineering affluence and technological advances."
+    />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link rel="stylesheet" href="%PUBLIC_URL%/css/main.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/main.css" />
     <title>ProjectWalla | All Kind of Project Solution</title>
     <!-- font -->
-    <link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Oswald:400,500,600,700" rel="stylesheet">
+    <link
+      href="//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800"
+      rel="stylesheet"
+    />
+    <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+    <link
+      href="//fonts.googleapis.com/css?family=Oswald:400,500,600,700"
+      rel="stylesheet"
+    />
     <!-- //font -->
     <script src="%PUBLIC_URL%/js/jquery-2.2.3.min.js"></script>
     <script src="%PUBLIC_URL%/js/bootstrap.js"></script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-
     <div id="root"></div>
-    <script type="text/javascript" src="%PUBLIC_URL%/js/numscroller-1.0.js"></script>
+    <script
+      type="text/javascript"
+      src="%PUBLIC_URL%/js/numscroller-1.0.js"
+    ></script>
     <script src="%PUBLIC_URL%/js/responsiveslides.min.js"></script>
     <script>
       // You can also use "$(window).load(function() {"
@@ -36,22 +45,22 @@
           speed: 500,
           namespace: "callbacks",
           before: function () {
-            $('.events').append("<li>before event fired.</li>");
+            $(".events").append("<li>before event fired.</li>");
           },
           after: function () {
-            $('.events').append("<li>after event fired.</li>");
-          }
+            $(".events").append("<li>after event fired.</li>");
+          },
         });
       });
     </script>
     <script defer src="%PUBLIC_URL%/js/jquery.flexslider.js"></script>
     <script type="text/javascript">
-      $(window).load(function(){
-        $('.flexslider').flexslider({
+      $(window).load(function () {
+        $(".flexslider").flexslider({
           animation: "slide",
-          start: function(slider){
-            $('body').removeClass('loading');
-          }
+          start: function (slider) {
+            $("body").removeClass("loading");
+          },
         });
       });
     </script>
@@ -61,17 +70,18 @@
     <script type="text/javascript" src="%PUBLIC_URL%/js/easing.js"></script>
 
     <script src="%PUBLIC_URL%/js/jarallax.js"></script>
-<!--    <script src="js/SmoothScroll.min.js"></script>-->
+    <!--    <script src="js/SmoothScroll.min.js"></script>-->
     <script type="text/javascript">
       /* init Jarallax */
-      $('.jarallax').jarallax({
+      $(".jarallax").jarallax({
         speed: 0.5,
         imgWidth: 1366,
-        imgHeight: 768
-      })
-    </script><!-- here stars scrolling icon -->
+        imgHeight: 768,
+      });
+    </script>
+    <!-- here stars scrolling icon -->
     <script type="text/javascript">
-      $(document).ready(function() {
+      $(document).ready(function () {
         /*
             var defaults = {
             containerID: 'toTop', // fading element id
@@ -81,24 +91,25 @@
             };
         */
 
-        $().UItoTop({ easingType: 'easeOutQuart' });
-
+        $().UItoTop({ easingType: "easeOutQuart" });
       });
     </script>
     <!-- //here ends scrolling icon -->
     <!-- scrolling script -->
     <script type="text/javascript">
       // jQuery(document).ready(function($) {
-        $(".scroll").click(function(event){
-          event.preventDefault();
-          $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-        });
+      $(".scroll").click(function (event) {
+        event.preventDefault();
+        $("html,body").animate({ scrollTop: $(this.hash).offset().top }, 1000);
+      });
       // });
     </script>
     <!-- //scrolling script -->
     <!-- animation effects-js files-->
-    <script src="%PUBLIC_URL%/js/aos.js"></script><!-- //animation effects-js-->
-    <script src="%PUBLIC_URL%/js/aos1.js"></script><!-- //animation effects-js-->
+    <script src="%PUBLIC_URL%/js/aos.js"></script>
+    <!-- //animation effects-js-->
+    <script src="%PUBLIC_URL%/js/aos1.js"></script>
+    <!-- //animation effects-js-->
     <!-- animation effects-js files-->
   </body>
 </html>
