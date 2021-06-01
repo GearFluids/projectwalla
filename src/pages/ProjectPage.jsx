@@ -37,7 +37,6 @@ const ProjectPage = () => {
           />
         </div>
       </div>
-      <Client />
     </Fragment>
   );
 };
