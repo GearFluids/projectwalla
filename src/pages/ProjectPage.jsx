@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import Client from "../components/Client";
 import ImgTextBlock from "../components/Common/Img_Text_Block";
 import ImgTextListBox from "../components/Common/Img_Text_List_Box";
 import {
