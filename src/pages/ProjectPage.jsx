@@ -6,6 +6,7 @@ import {
   ResearchSubData,
 } from "../services/ResearchService";
 import { happyCustomers, paperStats } from "../services/ImgUrlService";
+import Projects from "../components/Projects";
 
 const ProjectPage = () => {
   return (
@@ -34,6 +35,7 @@ const ProjectPage = () => {
             altName="ProjectWalla Mission and Vision"
             imgQuote="ProjectWalla - is a unit of S SQUARE EMPOWER"
           />
+          <Projects />
         </div>
       </div>
     </Fragment>

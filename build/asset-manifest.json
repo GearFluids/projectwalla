@@ -1,17 +1,26 @@
 {
   "files": {
-    "main.js": "/static/js/main.dda6d731.chunk.js",
-    "main.js.map": "/static/js/main.dda6d731.chunk.js.map",
+    "main.js": "/static/js/main.870d5639.chunk.js",
+    "main.js.map": "/static/js/main.870d5639.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a03e59ba.js",
     "runtime-main.js.map": "/static/js/runtime-main.a03e59ba.js.map",
-    "static/js/2.abb52531.chunk.js": "/static/js/2.abb52531.chunk.js",
-    "static/js/2.abb52531.chunk.js.map": "/static/js/2.abb52531.chunk.js.map",
+    "static/js/2.4dd4260c.chunk.js": "/static/js/2.4dd4260c.chunk.js",
+    "static/js/2.4dd4260c.chunk.js.map": "/static/js/2.4dd4260c.chunk.js.map",
     "static/js/3.44155eff.chunk.js": "/static/js/3.44155eff.chunk.js",
     "static/js/3.44155eff.chunk.js.map": "/static/js/3.44155eff.chunk.js.map",
     "index.html": "/index.html",
-    "static/js/2.abb52531.chunk.js.LICENSE.txt": "/static/js/2.abb52531.chunk.js.LICENSE.txt",
+    "static/js/2.4dd4260c.chunk.js.LICENSE.txt": "/static/js/2.4dd4260c.chunk.js.LICENSE.txt",
+    "static/media/ProjectWalla_Aerospace_engineering.87e2e83c.jpeg": "/static/media/ProjectWalla_Aerospace_engineering.87e2e83c.jpeg",
+    "static/media/ProjectWalla_Civil_engineering.67e5a605.jpeg": "/static/media/ProjectWalla_Civil_engineering.67e5a605.jpeg",
+    "static/media/ProjectWalla_Computer_Science_engineering.87cc9481.jpeg": "/static/media/ProjectWalla_Computer_Science_engineering.87cc9481.jpeg",
+    "static/media/ProjectWalla_Electrical_engineering.198de5ad.jpeg": "/static/media/ProjectWalla_Electrical_engineering.198de5ad.jpeg",
+    "static/media/ProjectWalla_Electronic_engineering.910701c5.jpeg": "/static/media/ProjectWalla_Electronic_engineering.910701c5.jpeg",
     "static/media/ProjectWalla_G_R_Gopinathan.24e3a698.jpg": "/static/media/ProjectWalla_G_R_Gopinathan.24e3a698.jpg",
+    "static/media/ProjectWalla_Information_engineering.caa5e067.jpeg": "/static/media/ProjectWalla_Information_engineering.caa5e067.jpeg",
+    "static/media/ProjectWalla_Matamatical_and_Computational.fa6f70bf.jpeg": "/static/media/ProjectWalla_Matamatical_and_Computational.fa6f70bf.jpeg",
     "static/media/ProjectWalla_Paper_Publication_Stats.833cf295.jpeg": "/static/media/ProjectWalla_Paper_Publication_Stats.833cf295.jpeg",
+    "static/media/ProjectWalla_Software_engineering.139630b4.jpeg": "/static/media/ProjectWalla_Software_engineering.139630b4.jpeg",
+    "static/media/ProjectWalla_automobile_engineering.3b801019.jpeg": "/static/media/ProjectWalla_automobile_engineering.3b801019.jpeg",
     "static/media/ProjectWalla_ayush_raj.b9e6ab52.png": "/static/media/ProjectWalla_ayush_raj.b9e6ab52.png",
     "static/media/ProjectWalla_deepu_meena.9e33c984.jpg": "/static/media/ProjectWalla_deepu_meena.9e33c984.jpg",
     "static/media/ProjectWalla_happy_customers_all_over_india.a4eeaa42.jpeg": "/static/media/ProjectWalla_happy_customers_all_over_india.a4eeaa42.jpeg",
@@ -29,7 +38,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a03e59ba.js",
-    "static/js/2.abb52531.chunk.js",
-    "static/js/main.dda6d731.chunk.js"
+    "static/js/2.4dd4260c.chunk.js",
+    "static/js/main.870d5639.chunk.js"
   ]
 }

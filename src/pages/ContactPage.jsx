@@ -4,7 +4,7 @@ import { contact } from "../services/ImgUrlService";
 const ContactPage = () => {
   return (
     <Fragment>
-      <div className="banner-bottom">
+      <div className="banner-bottom" id="contact-detail">
         <div className="container">
           <h3 className="heading-agileinfo" data-aos="zoom-in">
             Contact Us

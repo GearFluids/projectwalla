@@ -1,5 +1,23 @@
+* {
+  outline: none !important;
+}
 html {
   overflow-x: hidden;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.mb-3 {
+  margin-bottom: 3rem;
+}
+.px-3 {
+  padding: 0 3rem !important;
+}
+.fw-bold {
+  font-weight: bold !important;
+}
+ol li {
+  list-style: none;
 }
 dd {
   font-size: 24px;
@@ -68,6 +86,10 @@ dd {
 }
 .rating-success {
   background-color: var(--text-green) !important;
+}
+
+.projects-btn {
+  margin: 0.8em;
 }
 /*.vertical-line::after {*/
 /*    content: "";*/

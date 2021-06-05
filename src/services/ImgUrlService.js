@@ -2,10 +2,19 @@ import logo from "../media/projectwalla-logo.png";
 import aboutResearch from "../media/projectwalla-about-us-best-reseach-in-india.png";
 import happyCustomers from "../media/ProjectWalla_happy_customers_all_over_india.jpeg";
 import paperStats from "../media/ProjectWalla_Paper_Publication_Stats.jpeg";
-import mechanical from "../media/ProjectWalla_mechanical.jpeg";
 import deepuMeena from "../media/ProjectWalla_deepu_meena.jpg";
 import ayushRaj from "../media/ProjectWalla_ayush_raj.png";
 import grGopinath from "../media/ProjectWalla_G_R_Gopinathan.jpg";
+import mechanical from "../media/ProjectWalla_mechanical.jpeg";
+import automobile from "../media/ProjectWalla_automobile_engineering.jpeg";
+import computer from "../media/ProjectWalla_Computer_Science_engineering.jpeg";
+import information from "../media/ProjectWalla_Information_engineering.jpeg";
+import aerospance from "../media/ProjectWalla_Aerospace_engineering.jpeg";
+import software from "../media/ProjectWalla_Software_engineering.jpeg";
+import mathamatical from "../media/ProjectWalla_Matamatical_and_Computational.jpeg";
+import civil from "../media/ProjectWalla_Civil_engineering.jpeg";
+import electronic from "../media/ProjectWalla_Electronic_engineering.jpeg";
+import electrical from "../media/ProjectWalla_Electrical_engineering.jpeg";
 const projectwallaLogo = logo;
 
 const researchProposal =
@@ -42,8 +51,17 @@ export {
   idea,
   charts,
   paperStats,
-  mechanical,
   deepuMeena,
   ayushRaj,
   grGopinath,
+  mechanical,
+  automobile,
+  computer,
+  information,
+  aerospance,
+  civil,
+  electrical,
+  electronic,
+  mathamatical,
+  software,
 };

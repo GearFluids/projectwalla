@@ -53,14 +53,7 @@ const ListBox = ({
                 &nbsp; */}
                 <span>{item[subPara]}</span>
               </p>
-              {item[key] === ikey ? (
-                <SubListBox LOne={item[lOne]} />
-              ) : // <ol className="container pl-5 col-md-12 agileits_services_grid">
-              //   {item[lOne].map((slist, index) => (
-              //     <li key={index}>{slist}</li>
-              //   ))}
-              // </ol>
-              null}
+              {item[key] === ikey ? <SubListBox LOne={item[lOne]} /> : null}
             </div>
           ))}
         </div>
