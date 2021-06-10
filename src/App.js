@@ -8,12 +8,12 @@ import WhyUsPage from "./pages/WhyUsPage";
 import ServicePage from "./pages/ServicePage";
 import ProjectPage from "./pages/ProjectPage";
 import ContactPage from "./pages/ContactPage";
-import Register from "./components/Register";
 import BlogPage from "./pages/BlogPage";
 import SideNav from "./components/Common/SideNav";
 import ProofReadingPage from "./pages/ProofReadingPage";
 import RnDPage from "./pages/RnDPage";
 import AcademicPage from "./pages/AcademicPage";
+import Inquiry from "./components/Inquiry";
 
 const App = () => {
   return (
@@ -32,7 +32,7 @@ const App = () => {
         <Route path="/blogs" component={BlogPage} />
         <Route path="/contact-Us" component={ContactPage} />
       </Switch>
-      <Register />
+      <Inquiry />
       <Footer />
     </Router>
   );
