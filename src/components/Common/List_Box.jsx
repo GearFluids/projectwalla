@@ -1,17 +1,6 @@
 import React, { Fragment, useState } from "react";
-import SubListBox from "./Sub_List_Box";
 
-const ListBox = ({
-  data,
-  url,
-  key,
-  aosTypeText,
-  icon,
-  head,
-  para,
-  subPara,
-  lOne,
-}) => {
+const ListBox = ({ data, key, aosTypeText, icon, head, para, subPara }) => {
   const [shown, setShown] = useState(false);
   const [ikey, setIkey] = useState("");
   return (
@@ -53,7 +42,7 @@ const ListBox = ({
                 &nbsp; */}
                 <span>{item[subPara]}</span>
               </p>
-              {item[key] === ikey ? <SubListBox LOne={item[lOne]} /> : null}
+              {/* {item[key] === ikey ? <SubListBox LOne={item[lOne]} /> : null} */}
             </div>
           ))}
         </div>

@@ -3,9 +3,7 @@ import {
   copyRightFooter,
   footerContainer,
   footerInnerText,
-  services,
   socialInfo,
-  weOffer,
   menuList,
 } from "../services/FooterService";
 import AddressList from "./Common/AddressList";
@@ -26,7 +24,8 @@ const Footer = ({
   return (
     <Fragment>
       <div className="footer">
-        <div className="container">
+        <div className="container-fluid mx-1">
+          {/* f-bg-w3l */}
           <div className="f-bg-w3l">
             <div
               className={footerContainer[fColGridSizeClass]}
@@ -41,22 +40,22 @@ const Footer = ({
               head={footerContainer[headCol4]}
               aosType="fade-left"
             />
-            <FooterMenu
+            {/* <FooterMenu
               data={weOffer}
               // divClass={footerContainer[fColGridSizeClass]}
               head={footerContainer[headCol2]}
               aosType="fade-down"
-            />
-            <FooterMenu
+            /> */}
+            {/* <FooterMenu
               data={services}
               // divClass={footerContainer[fColGridSizeClass]}
               head={footerContainer[headCol3]}
               aosType="fade-up"
-            />
+            /> */}
             <div className="clearfix" />
           </div>
         </div>
-        <p className={copyRightFooter[classCR]} data-aos="zoom-in">
+        <p className={copyRightFooter[classCR]}>
           {copyRightFooter[titleCR]}
           <a href={copyRightFooter[urlCR]} target="_blank" rel="noreferrer">
             {copyRightFooter[designCR]}

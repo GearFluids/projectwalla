@@ -4,7 +4,7 @@ import { rAngle } from "../../services/icons";
 function SubListBox({ LOne }) {
   const [viewMore, setViewMore] = useState(false);
   let icon = "fa fa-angle-";
-  icon += viewMore ? "down" : "up";
+  icon += viewMore ? "up" : "down";
   return (
     <Fragment>
       <ol className="container pl-5 col-md-12 col-sm-12 agileits_services_grid">

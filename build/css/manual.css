@@ -4,6 +4,35 @@
 html {
   overflow-x: hidden;
 }
+.m-auto {
+  margin: auto !important;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.initiative-class {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+@media screen and (max-width: 678px) {
+  .initiative-class {
+    flex-basis: auto;
+  }
+}
+
+.mx-1 {
+  margin: 0 1rem !important;
+}
 .mb-1 {
   margin-bottom: 1rem;
 }
@@ -123,6 +152,26 @@ dd {
     overflow-x: hidden !important;
   }
 }
+
+.hide-space {
+  display: inline;
+  /* height: 100px; */
+  background-color: #000;
+}
+
+/* @media (max-width: 991px) {
+  .hide-space {
+    top: -16em;
+  }
+  .exception-absolute {
+    position: absolute;
+  }
+}
+@media (max-width: 687px) {
+  .hide-space {
+    top: -18em;
+  }
+} */
 /*.vertical-line::after {*/
 /*    content: "";*/
 /*    display: block;*/

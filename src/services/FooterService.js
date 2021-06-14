@@ -14,7 +14,7 @@ const footerContainer = {
   headingLabelOne: "We Offer",
   headingLabelTwo: "Services",
   headingLabelThree: "Menu",
-  fColGridSizeClass: "col-md-3 w3layouts_footer_grid",
+  fColGridSizeClass: "col-md-7 w3layouts_footer_grid",
   socialClass: "social_agileinfo",
   ulITClass: "con_inner_text",
 };
