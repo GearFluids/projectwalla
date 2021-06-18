@@ -28,8 +28,16 @@ const ContactData = [
 ];
 
 const BranchOption = [
-  { label: "Mechinal Engineering", value: "Mechinal-Engineering" },
-  { label: "Aerospace Engineering", value: "Aerospace Engineering" },
+  { branch: "Aerospance Engineering" },
+  { branch: "Automobile Engineering" },
+  { branch: "Civil Engineering" },
+  { branch: "Computer Engineering" },
+  { branch: "Electrical Engineering" },
+  { branch: "Electronic Engineering" },
+  { branch: "Information Engineering" },
+  { branch: "Mathamatical & Computational" },
+  { branch: "Mechanical Engineering" },
+  { branch: "Software Engineering" },
 ];
 
 export { ContactData, BranchOption };

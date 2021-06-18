@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.bc537b96.chunk.js",
-    "main.js.map": "/static/js/main.bc537b96.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.fca7fc31.js",
-    "runtime-main.js.map": "/static/js/runtime-main.fca7fc31.js.map",
-    "static/js/2.d29a6f19.chunk.js": "/static/js/2.d29a6f19.chunk.js",
-    "static/js/2.d29a6f19.chunk.js.map": "/static/js/2.d29a6f19.chunk.js.map",
-    "static/js/3.e95c0df3.chunk.js": "/static/js/3.e95c0df3.chunk.js",
-    "static/js/3.e95c0df3.chunk.js.map": "/static/js/3.e95c0df3.chunk.js.map",
+    "main.js": "/static/js/main.e6df6046.chunk.js",
+    "main.js.map": "/static/js/main.e6df6046.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.857369f4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.857369f4.js.map",
+    "static/css/2.97503911.chunk.css": "/static/css/2.97503911.chunk.css",
+    "static/js/2.8d96a1c0.chunk.js": "/static/js/2.8d96a1c0.chunk.js",
+    "static/js/2.8d96a1c0.chunk.js.map": "/static/js/2.8d96a1c0.chunk.js.map",
+    "static/js/3.32423894.chunk.js": "/static/js/3.32423894.chunk.js",
+    "static/js/3.32423894.chunk.js.map": "/static/js/3.32423894.chunk.js.map",
     "index.html": "/index.html",
-    "static/js/2.d29a6f19.chunk.js.LICENSE.txt": "/static/js/2.d29a6f19.chunk.js.LICENSE.txt",
+    "static/css/2.97503911.chunk.css.map": "/static/css/2.97503911.chunk.css.map",
+    "static/js/2.8d96a1c0.chunk.js.LICENSE.txt": "/static/js/2.8d96a1c0.chunk.js.LICENSE.txt",
     "static/media/ProjectWalla_Aerospace_engineering.87e2e83c.jpeg": "/static/media/ProjectWalla_Aerospace_engineering.87e2e83c.jpeg",
     "static/media/ProjectWalla_Civil_engineering.67e5a605.jpeg": "/static/media/ProjectWalla_Civil_engineering.67e5a605.jpeg",
     "static/media/ProjectWalla_Computer_Science_engineering.87cc9481.jpeg": "/static/media/ProjectWalla_Computer_Science_engineering.87cc9481.jpeg",
@@ -37,8 +39,9 @@
     "static/media/projectwalla-thermal-behaviour-and-gluid-flow-characteristics.3daa37d3.jpeg": "/static/media/projectwalla-thermal-behaviour-and-gluid-flow-characteristics.3daa37d3.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fca7fc31.js",
-    "static/js/2.d29a6f19.chunk.js",
-    "static/js/main.bc537b96.chunk.js"
+    "static/js/runtime-main.857369f4.js",
+    "static/css/2.97503911.chunk.css",
+    "static/js/2.8d96a1c0.chunk.js",
+    "static/js/main.e6df6046.chunk.js"
   ]
 }

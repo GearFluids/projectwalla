@@ -1146,6 +1146,9 @@ p.para-w3-agile {
   font-size: 0.9em;
   color: #000;
 }
+.book-appointment label {
+  color: #fff !important;
+}
 .book-appointment input[type="text"],
 .book-appointment input[type="email"],
 .book-appointment select,

@@ -8,11 +8,12 @@ const Register = () => {
     name: "",
     email: "",
     phone: "",
+    country: "",
     branch: "",
     message: "",
   });
 
-  const { name, email, phone, branch, message } = data;
+  const { name, email, phone, country, branch, message } = data;
   const handleChange = (e) => {
     setdata({ ...data, [e.target.name]: e.target.value });
   };
@@ -27,7 +28,15 @@ const Register = () => {
             "Content-Type": "application/json",
           },
           body: JSON.stringify([
-            [name, email, phone, branch, message, new Date().toLocaleString()],
+            [
+              name,
+              email,
+              phone,
+              country,
+              branch,
+              message,
+              new Date().toLocaleString(),
+            ],
           ]),
         }
       );
@@ -38,6 +47,7 @@ const Register = () => {
         name: "",
         email: "",
         phone: "",
+        country: "",
         branch: "",
         message: "",
       });
@@ -91,6 +101,17 @@ const Register = () => {
                 />
               </div>
               <div className="gaps">
+                <label htmlFor="country">Country</label>
+                <input
+                  type="text"
+                  name="country"
+                  placeholder="country"
+                  value={country}
+                  onChange={handleChange}
+                  required
+                />
+              </div>
+              <div className="gaps">
                 <label htmlFor="branch">Branch</label>
                 <select
                   type="text"
@@ -102,7 +123,7 @@ const Register = () => {
                 >
                   <option value="">--Select--</option>
                   {BranchOption.map((option) => (
-                    <option value={option.value}>{option.label}</option>
+                    <option value={option.branch}>{option.branch}</option>
                   ))}
                 </select>
               </div>

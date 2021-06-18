@@ -10,15 +10,6 @@ const NavBar = ({ phoneNumber }) => {
       <div className="container-fluid">
         <div className="marquee_status">
           <p>ProjectWalla</p>
-          {/* <marquee behavior="scroll" direction="left">
-            Hi there, welcome to our site, we are your complete phd guidance
-            spot, where you can expect a high quality work. Your work will be
-            secured since we neither have tie-up with any university nor
-            outsource your work. We don’t share your details with other clients.
-            The person next to you might also be our client, but you may not
-            know… we are that confidential. And our employees are full-time
-            workers.
-          </marquee> */}
         </div>
         <div className="left-content common-content">
           <span>
@@ -81,12 +72,22 @@ const NavBar = ({ phoneNumber }) => {
                       <Link to="/">Home</Link>
                     </li>
                     <li>
-                      <Link to="/about-us" className="scroll">
+                      <Link
+                        to="/about-us"
+                        data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1"
+                        className="scroll"
+                      >
                         About
                       </Link>
                     </li>
                     <li>
-                      <Link to="/why-us" className="scroll">
+                      <Link
+                        to="/why-us"
+                        data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1"
+                        className="scroll"
+                      >
                         Why Us
                       </Link>
                     </li>
@@ -105,21 +106,36 @@ const NavBar = ({ phoneNumber }) => {
                       </Link>
                       <ul className="dropdown-menu">
                         <li>
-                          <Link to="/academic" className="scroll">
+                          <Link
+                            to="/academic"
+                            data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1"
+                            className="scroll"
+                          >
                             {" "}
                             <i className="fa fa-angle-right" />
                             &nbsp;Academic Project Assistance
                           </Link>
                         </li>
                         <li>
-                          <Link to="/research" className="scroll">
+                          <Link
+                            to="/research"
+                            data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1"
+                            className="scroll"
+                          >
                             {" "}
                             <i className="fa fa-angle-right" />
                             &nbsp;Research &amp; Development
                           </Link>
                         </li>
                         <li>
-                          <Link to="/proofreading" className="scroll">
+                          <Link
+                            to="/proofreading"
+                            data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1"
+                            className="scroll"
+                          >
                             {" "}
                             <i className="fa fa-angle-right" />
                             &nbsp;ProofReading
@@ -128,12 +144,22 @@ const NavBar = ({ phoneNumber }) => {
                       </ul>
                     </li>
                     <li>
-                      <Link to="/project-domain" className="scroll">
+                      <Link
+                        to="/project-domain"
+                        data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1"
+                        className="scroll"
+                      >
                         Project Domain
                       </Link>
                     </li>
                     <li>
-                      <Link to="/blogs" className="scroll">
+                      <Link
+                        to="/blogs"
+                        data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1"
+                        className="scroll"
+                      >
                         Blog
                       </Link>
                     </li>
@@ -152,17 +178,22 @@ const NavBar = ({ phoneNumber }) => {
                       </a>
                       <ul className="dropdown-menu">
                         <li>
-                          <Link to="/contact-us" className="scroll">
+                          <Link
+                            to="/contact-us"
+                            data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1"
+                            className="scroll"
+                          >
                             <i className="fa fa-angle-right" />
                             &nbsp;Contact Us
                           </Link>
                         </li>
-                        <li>
+                        {/* <li>
                           <NavLink to="" className="scroll">
                             <i className="fa fa-angle-right" />
                             &nbsp;Careers
                           </NavLink>
-                        </li>
+                        </li> */}
                         {/*<li><a href="#" className="scroll"><i className="fa fa-angle-right"/>&nbsp;FAQ</a></li>*/}
                       </ul>
                     </li>

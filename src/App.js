@@ -15,7 +15,6 @@ import ProofReadingPage from "./pages/ProofReadingPage";
 import RnDPage from "./pages/RnDPage";
 import AcademicPage from "./pages/AcademicPage";
 import Inquiry from "./components/Inquiry";
-import Initiatives from "./components/Initiatives";
 
 const App = () => {
   return (
@@ -36,7 +35,6 @@ const App = () => {
         <Route path="/contact-Us" component={ContactPage} />
       </Switch>
       <Inquiry />
-      <Initiatives />
       <Footer />
     </Router>
   );
