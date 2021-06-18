@@ -1148,6 +1148,8 @@ p.para-w3-agile {
 }
 .book-appointment input[type="text"],
 .book-appointment input[type="email"],
+.book-appointment select,
+.book-appointment option,
 .book-appointment textarea {
   width: 100%;
   color: #000;
@@ -1155,6 +1157,7 @@ p.para-w3-agile {
   font-size: 1em;
   padding: 10px;
   border: none;
+  border-radius: 15px;
   -webkit-appearance: none;
   margin: 0.3em 0em 1em;
   background: #fff;

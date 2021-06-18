@@ -1,5 +1,6 @@
 import React from "react";
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 import HomePage from "./pages/HomePage";
 import AboutUsPage from "./pages/AboutUsPage";
 import NavBar from "./components/NavBar";
@@ -21,6 +22,7 @@ const App = () => {
     <Router>
       <NavBar phoneNumber="9972461001" />
       <SideNav phoneNumber="9972461001" />
+      <ToastContainer />
       <Switch>
         <Route path="/" exact component={HomePage} />
         <Route path="/about-us" component={AboutUsPage} />

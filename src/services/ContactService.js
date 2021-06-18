@@ -27,4 +27,9 @@ const ContactData = [
   },
 ];
 
-export { ContactData };
+const BranchOption = [
+  { label: "Mechinal Engineering", value: "Mechinal-Engineering" },
+  { label: "Aerospace Engineering", value: "Aerospace Engineering" },
+];
+
+export { ContactData, BranchOption };
