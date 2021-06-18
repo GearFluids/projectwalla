@@ -14,7 +14,7 @@ const NavBar = ({ phoneNumber }) => {
         <div className="left-content common-content">
           <span>
             <Stars />
-            &nbsp;<span className="badge rating-success">4.7/5</span>
+            &nbsp;<span className="badge rating-success">4.8/5</span>
           </span>
         </div>
         <div className="right-content common-content">
@@ -163,8 +163,18 @@ const NavBar = ({ phoneNumber }) => {
                         Blog
                       </Link>
                     </li>
-
                     <li>
+                      <Link
+                        to="/contact-us"
+                        data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1"
+                        className="scroll"
+                      >
+                        Contact
+                      </Link>
+                    </li>
+
+                    {/* <li>
                       <a
                         href="?"
                         className="dropdown-toggle"
@@ -188,15 +198,20 @@ const NavBar = ({ phoneNumber }) => {
                             &nbsp;Contact Us
                           </Link>
                         </li>
-                        {/* <li>
+                        <li>
                           <NavLink to="" className="scroll">
                             <i className="fa fa-angle-right" />
                             &nbsp;Careers
                           </NavLink>
-                        </li> */}
-                        {/*<li><a href="#" className="scroll"><i className="fa fa-angle-right"/>&nbsp;FAQ</a></li>*/}
+                        </li>
+                        <li>
+                          <a href="#" className="scroll">
+                            <i className="fa fa-angle-right" />
+                            &nbsp;FAQ
+                          </a>
+                        </li>
                       </ul>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

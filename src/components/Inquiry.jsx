@@ -41,7 +41,9 @@ const Register = () => {
         }
       );
       await response.json();
-      notify("Thank You For Submiting the form. We will contact you Shortly");
+      notify(
+        "Your Response has been submitted. We will contact you Shortly !!"
+      );
       setdata({
         ...data,
         name: "",
@@ -65,9 +67,9 @@ const Register = () => {
               your doubts.
             </span>
           </h3>
-          <div className="book-appointment" data-aos="zoom-in">
+          <div className="book-appointment" data-aos="zoom-out">
             <form onSubmit={handleSubmit}>
-              <div className="gaps">
+              <div className="gaps" data-aos="fade-right">
                 <label htmlFor="name">Name</label>
                 <input
                   type="text"
@@ -78,7 +80,7 @@ const Register = () => {
                   required
                 />
               </div>
-              <div className="gaps">
+              <div className="gaps" data-aos="fade-left">
                 <label htmlFor="email">Email</label>
                 <input
                   type="email"
@@ -89,7 +91,7 @@ const Register = () => {
                   required
                 />
               </div>
-              <div className="gaps">
+              <div className="gaps" data-aos="fade-right">
                 <label htmlFor="phone">Phone</label>
                 <input
                   type="text"
@@ -100,7 +102,7 @@ const Register = () => {
                   required
                 />
               </div>
-              <div className="gaps">
+              <div className="gaps" data-aos="fade-left">
                 <label htmlFor="country">Country</label>
                 <input
                   type="text"
@@ -111,7 +113,7 @@ const Register = () => {
                   required
                 />
               </div>
-              <div className="gaps">
+              <div className="gaps" data-aos="fade-right">
                 <label htmlFor="branch">Branch</label>
                 <select
                   type="text"
@@ -127,7 +129,7 @@ const Register = () => {
                   ))}
                 </select>
               </div>
-              <div className="gaps">
+              <div className="gaps" data-aos="fade-left">
                 <label htmlFor="message">Message</label>
                 <textarea
                   name="message"
@@ -137,7 +139,7 @@ const Register = () => {
                   required
                 />
               </div>
-              <div className="text-center">
+              <div className="text-center" data-aos="zoom-in">
                 <input
                   type="submit"
                   value="Submit"

@@ -25,40 +25,48 @@ const ContactPage = () => {
                 </div>
                 <div
                   className="col-md-6 agileits_services_grid text-center"
-                  style={{ margin: "5em 0" }}
+                  // style={{ margin: "5em 0" }}
                 >
-                  <div className="card-body">
-                    <dl className="row remove-anchore-link">
-                      <dt className="col-sm-2 text-center bg-info my-auto p-3 rounded">
-                        <i className="fa fa-map-marker" />
-                      </dt>
-                      <dd className="col-sm-10 justify-content-around my-auto">
-                        <a href="/home">Delhi, Bangalore</a>
-                      </dd>
-                    </dl>
-                    <dl className="row remove-anchore-link">
-                      <dt className="col-sm-2 text-center bg-info my-auto p-3 rounded">
-                        <i className="fa fa-phone" />
-                      </dt>
-                      <dd className="col-sm-10 julist-groupy-content-around my-auto">
-                        <li className="list-group">
-                          <a href="tel:9972461001">+91-9972461001</a>
-                        </li>
-                        <li className="list-group">
-                          <a href="tel:9945121001">+91-9945121001</a>
-                        </li>
-                      </dd>
-                    </dl>
-                    <dl className="row remove-anchore-link">
-                      <dt className="col-sm-2 text-center bg-info my-auto p-3 rounded">
-                        <i className="fa fa-envelope" />
-                      </dt>
-                      <dd className="col-sm-10 justify-content-around my-auto">
-                        <a href="mailto:project@projectwalla.com">
-                          project@projectwalla.com
-                        </a>
-                      </dd>
-                    </dl>
+                  {/* <a href="/home">Delhi, Bangalore</a>
+                  <a href="tel:9972461001">+91-9972461001</a>
+                  <a href="tel:9945121001">+91-9945121001</a>
+                  <a href="mailto:project@projectwalla.com">
+                    project@projectwalla.com
+                  </a> */}
+                  <div id="contact" class="contact">
+                    <div className="">
+                      <div className="col-md-8">
+                        <div className="info">
+                          <div className="address">
+                            <i className="fa fa-map-marker"></i>
+                            <h4>Location:</h4>
+                            <p>
+                              <a href="/home">Delhi, Bangalore</a>
+                            </p>
+                          </div>
+
+                          <div className="email">
+                            <i className="fa fa-envelope"></i>
+                            <h4>Email:</h4>
+                            <p>
+                              <a href="mailto:project@projectwalla.com">
+                                project@projectwalla.com
+                              </a>
+                            </p>
+                          </div>
+
+                          <div className="phone">
+                            <i className="fa fa-phone"></i>
+                            <h4>Call:</h4>
+                            <p>
+                              <a href="tel:9972461001">+91-9972461001</a>,
+                              &nbsp;&nbsp;
+                              <a href="tel:9945121001">+91-9945121001</a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

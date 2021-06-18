@@ -50,7 +50,7 @@ body {
       rgba(32, 58, 67, 0.4),
       rgba(44, 83, 100, 0.6)
     ),
-    url(../images/ProjectWalla-project-making-banner.jpg) no-repeat 0px 0px;
+    url(../images/projectwalla-banner.svg) no-repeat 0px 0px;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
